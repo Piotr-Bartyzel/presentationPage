@@ -1,0 +1,38 @@
+@keyframes slide {
+    0% {left: 100%; width: 100%;}
+    5% {left: 0%;}
+    25% {left: 0%; }
+    30% { left: -150%; width: 100%; }
+    30.0001% {left: -150%; width: 0%;}
+    100% {left: 150%; width: 0%;}
+}
+
+@keyframes scrollImage {
+    0% {transform: scale(1.4)}
+    100% {transform: scale(1.0)}
+}
+
+@keyframes scrollImage2 {
+    0% {transform: scale(1.0)}
+    100% {transform: scale(1.1)}
+}
+
+@keyframes moveText1 {
+    0% {right: -10%}
+    100% {right: 70%}
+}
+
+@keyframes moveText2 {
+    0% {left: -10%}
+    100% {left: 30%}
+}
+
+@keyframes moveText3 {
+    0% {right: -10%}
+    100% {right: 20%}
+}
+
+@keyframes moveText4 {
+    0% {left: -10%}
+    100% {left: 70%}
+}
